@@ -14,7 +14,9 @@ function RankingComponent({ motion }) {
                 className='d-flex flex-column align-items-center gap-4'
                 style={{ backgroundColor: '#EDF5E1', paddingTop: '60px' }}
             >
-                <h2 className='mb-4'>Ranking</h2>
+                <h2 className='mb-4' id='ranking'>
+                    Ranking
+                </h2>
                 <div
                     className='card'
                     style={{

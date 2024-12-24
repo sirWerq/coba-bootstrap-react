@@ -1,8 +1,15 @@
+import img_1 from '../assets/hero.jpg';
+
 function IntroductionComponent({ motion }) {
     return (
         <div
             className='d-flex align-items-center justify-content-center vh-100'
             id='introduction'
+            style={{
+                backgroundImage: `url(${img_1})`,
+                backgroundPosition: 'center',
+                backgroundAttachment: 'fixed',
+            }}
         >
             <motion.div
                 initial={{ opacity: 0, translateX: -100 }}
